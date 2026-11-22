@@ -1,0 +1,66 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background-color: #3a3a3a;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 30px;
+}
+
+/* Judul logo */
+nav h2 {
+  color: white;
+}
+
+/* Menu */
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+/* Link */
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+/* Footer */
+footer {
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+.logo-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-brand img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
