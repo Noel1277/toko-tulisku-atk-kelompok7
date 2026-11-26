@@ -1,8 +1,11 @@
+/* Reset dasar */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* Body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f3efe4;
@@ -99,17 +102,20 @@ body {
     display: block;
 }
 footer {
-    background-color: #3d3d3b;
-    color: #f3efe4;
-    text-align: center;
-    padding: 35px 20px;
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
-footer h3 {
-    font-size: 23px;
-    margin-bottom: 12px;
+.logo-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-footer p {
-    font-size: 14px;
-    line-height: 1.9;
-    color: #d6d2c8;
+
+.logo-brand img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
