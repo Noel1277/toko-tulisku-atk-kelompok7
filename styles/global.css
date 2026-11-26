@@ -1,11 +1,8 @@
-/* Reset dasar */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-/* Body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f3efe4;
@@ -31,7 +28,7 @@ body {
 }
 .header-judul {
     color: #f3efe4;
-    font-size: 34px;
+    font-size: 26px;
     margin-left: 15px;
     margin-right: auto;
 }
@@ -44,7 +41,7 @@ body {
 .header-link li a {
     color: #f3efe4;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 16px;
     transition: 0.3s;
 }
 .header-link li a:hover {
@@ -102,20 +99,17 @@ body {
     display: block;
 }
 footer {
-  background-color: #3a3a3a;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+    background-color: #3d3d3b;
+    color: #f3efe4;
+    text-align: center;
+    padding: 35px 20px;
 }
-.logo-brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+footer h3 {
+    font-size: 23px;
+    margin-bottom: 12px;
 }
-
-.logo-brand img {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
+footer p {
+    font-size: 14px;
+    line-height: 1.9;
+    color: #d6d2c8;
 }
