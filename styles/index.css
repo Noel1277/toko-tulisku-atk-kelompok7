@@ -1,0 +1,155 @@
+.sambutan {
+    padding: 75px 40px;
+    text-align: center;
+    background-color: #f3efe4;
+}
+.sambutan h2 {
+    color: #3d3d3b;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.sambutan p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.9;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.mengapa-kami {
+    padding: 65px 40px;
+    text-align: center;
+    background-color: #95978a;
+}
+.mengapa-kami h2 {
+    color: #f3efe4;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.mengapa-kami > p {
+    color: #f3efe4;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+.mengapa-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.mengapa-card {
+    background-color: #f3efe4;
+    padding: 35px 25px;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 330px;
+    transition: all 0.3s ease;
+    border-bottom: 4px solid #b6693b;
+}
+.mengapa-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+.mengapa-card h3 {
+    color: #914924;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.mengapa-card p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.jelajahi {
+    padding: 70px 40px;
+    text-align: center;
+    background-color: #f3efe4;
+}
+.jelajahi h2 {
+    color: #3d3d3b;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.jelajahi > p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 1.7;
+}
+.jelajahi-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.jelajahi-card {
+    background-color: #ffffff;
+    padding: 35px 25px;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 330px;
+    transition: all 0.3s ease;
+    border: 1px solid #e2dacc;
+}
+.jelajahi-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.jelajahi-card h3 {
+    color: #3d3d3b;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.jelajahi-card p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+.jelajahi-card a {
+    display: inline-block;
+    background-color: #b6693b;
+    color: #f3efe4;
+    text-decoration: none;
+    padding: 12px 26px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.jelajahi-card a:hover {
+    background-color: #914924;
+    transform: translateY(-2px);
+}
+.ajakan {
+    padding: 65px 40px;
+    text-align: center;
+    background-color: #95978a;
+}
+.ajakan h2 {
+    color: #f3efe4;
+    font-size: 29px;
+    margin-bottom: 15px;
+}
+.ajakan p {
+    color: #f3efe4;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+.ajakan a {
+    display: inline-block;
+    background-color: #3d3d3b;
+    color: #f3efe4;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.ajakan a:hover {
+    background-color: #914924;
+}
