@@ -66,8 +66,8 @@ body{
 
 /* Sets Spacing and Layout of the Main Section. */
 .main-service {
-    margin: 50px auto;
-    padding: 0 20px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Styles and Centers the Main Heading of Each Service Section. */
@@ -87,6 +87,7 @@ body{
 
 /* Custom color styling for title and subtitle on Section 2 */
 #special-service-title { 
+    padding-top: 20px;
     color: white;
 }
 
@@ -147,9 +148,8 @@ body{
 /* Background and Layout styling */
 .info-section {
     margin-top: 50px;
-    background-color: #3d3d3b; 
+    background-color: #95978a; 
     padding: 0px 40px 40px 40px;
-    border: 2px solid #3d3d3b;
 }
 
 /* Arranges the Five Paper Size and Material info into one row */
@@ -198,7 +198,7 @@ body{
     background-color: #FFFFFF;
     padding: 5px 35px 35px 35px;
     border-radius: 12px;
-    border: 2px solid #D5D0C5;
+    border: 1px solid #D5D0C5;
     margin-bottom: 40px;
 }
 
@@ -222,6 +222,119 @@ body{
 .requirements-box li {
     margin-bottom: 8px;
 }
+
+/* Section 4 */
+.workflow-section {
+    margin: 0 0;
+    padding: 0px 0px;
+}
+
+/* Workflow Section Title */
+.workflow-section h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #3d3d3b;
+    margin-bottom: 35px;
+}
+
+/* Workflow container styling */
+.workflow-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 0px 10px;
+}
+
+/* each card styling for workflow */
+.workflow-card {
+    background-color: #95978a;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* hover effect for workflow card */
+.workflow-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(62, 62, 59, 0.15);
+}
+
+/* span and title alignment in each workflow card */
+.workflow-heading {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* span numbers styling in each workflow card */
+.workflow-card span {
+    background-color: #3d3d3b;
+    border-radius: 50%;
+    color: #f3efe4;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 8px 8px;
+}
+
+/* Workflow title styling */
+.workflow-card h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* Workflow description styling */
+.workflow-card p {
+    margin-top: 20px;
+    line-height: 1.2;
+}
+
+/* Section 5 */
+.faq-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin: 0px 20px;
+    color: #3d3d3b;
+}
+
+/* each box styling */
+.faq-item {
+    background-color: white;
+    border: 1px solid #D5D0C5;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* title in each box styling */
+.faq-item h3 {
+    padding-bottom: 10px;
+}
+
+.faq-item p {
+    line-height: 1.2;
+}
+
+/* Back-to-home button styling */
+.back-to-home-button {
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    background-color: #b6693b;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect on back-to-home-button */
+.back-to-home-button:hover {
+    background-color: #914924;
+}
+
+
 
 /* back to top button */
 /* Creates a Fixed Button at the Bottom-Right Corner to return to the Top */
