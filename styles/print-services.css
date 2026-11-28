@@ -1,7 +1,9 @@
+/* Page font settings for body */
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Hero Banner Image Styling */
 .print-hero {
     background-image: url('../assets/images/hero/print-services-banner.png');
     background-size: cover;
@@ -17,6 +19,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Hero Overlay that Uses ::before to Create a half-Transparent Layer Over the Banner Image so the text Pops */
 .print-hero::before {
     content: '';
     position: absolute;
@@ -28,6 +31,8 @@ body{
     z-index: 1;
 }
 
+
+/* Adjust and style the text or elements inside */
 .hero-content {
     position: relative;
     z-index: 2;
@@ -36,6 +41,7 @@ body{
     text-align: left;
 }
 
+/* Title Styling for hero */
 .section-title {
     font-family: Arial, sans-serif;
     font-size: 45px;
@@ -46,15 +52,9 @@ body{
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
-#special-service-title { 
-    color: white;
-}
-
-#special-service-subtitle { 
-    color: white;
-}
 
 
+/* Main header store description styling */
 .section-desc {
     font-family: Arial, sans-serif;
     text-align: justify;
@@ -64,12 +64,13 @@ body{
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
-.main-container {
-    max-width: 1100px;
+/* Sets Spacing and Layout of the Main Section. */
+.main-service {
     margin: 50px auto;
     padding: 0 20px;
 }
 
+/* Styles and Centers the Main Heading of Each Service Section. */
 .service-title {
     text-align: center;
     font-size: 28px;
@@ -77,18 +78,31 @@ body{
     margin: 50px 30px 10px 30px;
 }
 
+/* Description Styling for each sections */
 .service-subtitle {
     text-align: center;
     line-height: 1.5;
 
 }
 
+/* Custom color styling for title and subtitle on Section 2 */
+#special-service-title { 
+    color: white;
+}
+
+
+#special-service-subtitle { 
+    color: white;
+}
+
+/* Arranges the Three Printing Service into one row */
 .service-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3px;
 }
 
+/* Styles the cards for three printing services */
 .service-card {
     display: flex;
     flex-direction: column;
@@ -103,11 +117,15 @@ body{
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
+
+/* Hover effect for the printing services with shadow */
 .service-card:hover {
     transform: translateY(-6px);  
     box-shadow: 0 8px 20px rgba(62, 62, 59, 0.15);
 }
 
+
+/* Styles the Title Inside Each Service Card */
 .service-card h3 {
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -115,6 +133,8 @@ body{
     margin-bottom: 10px;
 }
 
+
+/* Styles the Descriptive Text Inside Each Service Card. */
 .service-card p {
     font-family: Arial, sans-serif;
     font-size: 14px;
@@ -123,6 +143,8 @@ body{
     margin-bottom: 20px;
 }
 
+/* Section 2 */
+/* Background and Layout styling */
 .info-section {
     margin-top: 50px;
     background-color: #3d3d3b; 
@@ -130,6 +152,7 @@ body{
     border: 2px solid #3d3d3b;
 }
 
+/* Arranges the Five Paper Size and Material info into one row */
 .info-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -137,6 +160,7 @@ body{
     margin-top: 25px;
 }
 
+/* each card styling for section 2 */
 .info-card {
     min-height: 300px;
     background-color: #FFFFFF;
@@ -146,11 +170,13 @@ body{
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
+/* Hover effect for each card with border */
 .info-card:hover {
     transform: translateY(-6px);
     border-color: #3d3d3b; 
 }
 
+/* Each Title with Paper Size and Material Details styling */
 .info-card h3 {
     font-family: Arial, sans-serif;
     color: #3d3d3b; 
@@ -158,12 +184,15 @@ body{
     margin-bottom: 5px;
 }
 
+/* Each description with Paper Size and Material Details styling */
 .info-card p {
     font-family: Arial, sans-serif;
     font-size: 17px;
     line-height: 1.4;
 }
 
+/* Section 3 */
+/* Styles the File Requirements Section  */
 .requirements-box {
     margin-top: 40px;
     background-color: #FFFFFF;
@@ -173,12 +202,14 @@ body{
     margin-bottom: 40px;
 }
 
+/* Styles the Title of the File Requirements Section */
 .requirements-box h2 {
     font-family: Arial, sans-serif;
     color: #3d3d3b;
     margin-bottom: 30px;
 }
 
+/* Styles the list of the File Requirements Section */
 .requirements-box ul {
     padding-left: 20px;
     font-family: Arial, sans-serif;
@@ -187,10 +218,13 @@ body{
     list-style: square;
 }
 
+/* Set some spacing in the list */
 .requirements-box li {
     margin-bottom: 8px;
 }
 
+/* back to top button */
+/* Creates a Fixed Button at the Bottom-Right Corner to return to the Top */
 .back-to-top {
     position: fixed;
     bottom: 30px;
@@ -210,6 +244,7 @@ body{
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+/* Hover effect */
 .back-to-top:hover {
     transform: translateY(-4px);
 }
